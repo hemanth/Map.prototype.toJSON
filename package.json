@@ -1,6 +1,6 @@
 {
   "name": "map.prototype.tojson",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ES7 polyfill for map.prototype.tojson",
   "license": "MIT",
   "repository": "hemanth/map.prototype.tojson",
