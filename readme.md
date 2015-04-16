@@ -1,45 +1,24 @@
-# map-prototype-tojson [![Build Status](https://travis-ci.org/hemanth/map-prototype-tojson.svg?branch=master)](https://travis-ci.org/hemanth/map-prototype-tojson)
+# map.prototype.tojson [![Build Status](https://travis-ci.org/hemanth/map-prototype-tojson.svg?branch=master)](https://travis-ci.org/hemanth/map-prototype-tojson)
 
-> My amazing module
+> ES7 map.prototype.tojson polyfill
 
 
 ## Install
 
 ```
-$ npm install --save map-prototype-tojson
+$ npm install --save map.prototype.tojson
 ```
 
 
 ## Usage
 
 ```js
-var mapPrototypeTojson = require('map-prototype-tojson');
+require('map.prototype.tojson');
+var myMap = new Map();
+myMap.set(NaN, "not a number");
 
-mapPrototypeTojson('unicorns');
-//=> unicorns & rainbows
+console.log(myMap.toJSON()); // {"NaN":"not a number"}
 ```
-
-
-## API
-
-### mapPrototypeTojson(input, [options])
-
-#### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
 
 ## License
 
