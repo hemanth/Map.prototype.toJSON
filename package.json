@@ -1,0 +1,31 @@
+{
+  "name": "map.prototype.tojson",
+  "version": "0.0.0",
+  "description": "ES7 polyfill for map.prototype.tojson",
+  "license": "MIT",
+  "repository": "hemanth/map.prototype.tojson",
+  "author": {
+    "name": "hemanth",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "prepublish": "babel index.es7 > index.js" 
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "map",
+    "es7"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.1.10",
+    "mocha": "*"
+  }
+}
