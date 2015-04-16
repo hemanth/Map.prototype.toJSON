@@ -21,7 +21,9 @@
   ],
   "keywords": [
     "map",
-    "es7"
+    "es7",
+    "polyfill",
+    "prolyfill"  
   ],
   "dependencies": {},
   "devDependencies": {
