@@ -1,4 +1,4 @@
-# map.prototype.tojson [![Build Status](https://travis-ci.org/hemanth/map-prototype-tojson.svg?branch=master)](https://travis-ci.org/hemanth/map-prototype-tojson)
+# map.prototype.tojson [![Build Status](https://travis-ci.org/hemanth/Map.prototype.toJSON.svg?branch=master)](https://travis-ci.org/hemanth/Map.prototype.toJSON)
 
 > ES7 map.prototype.tojson polyfill
 
