@@ -1,6 +1,6 @@
 {
   "name": "map.prototype.tojson",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ES7 polyfill for map.prototype.tojson",
   "license": "MIT",
   "repository": "hemanth/map.prototype.tojson",
@@ -11,7 +11,7 @@
   },
   "engines": {
     "node": ">=0.10.0",
-    "prepublish": "babel index.es7 > index.js" 
+    "prepublish": "babel index.es7 > index.js"
   },
   "scripts": {
     "test": "mocha"
